@@ -49,12 +49,12 @@ You need at least 3 contacts, because the first and the last contact are only us
 Start Page: VPP calculation tool
 - choose where kinetic and kinematic data are saved (in one file or in two separate files)
 - choose initialisation file (e.g. “VPPdata.ini”), with this you can load in prepared values for all the following general information about the measurement (e.g. marker positions); you can create such file for your data set or skip this feature and write all the values manually in the entries of the gui
-- one file: “Load data files”: choose input files, e.g. “RW Cal 13.txt” (you can also choose the content of the whole folder)
+- one file: “Load data files”: choose input files, you can also choose the content of the whole folder
 - two separate input files: “Load kinetic data files”: choose input files with kinetic data, e.g. “anre 011.txt”; “Load kinematic data files”: choose input files with kinematic data, e.g. “anre0012.tsv” (you can also choose more than one file, but make sure that the data are synchronized in pairs)
 
 1. general information (kinetic data)
 - sample frequency: with which frequency measure the ground reaction force plates (you can find this information normally in the txt-files of the kinetic data)
-- give the mass of the participant in Newton (note that exact value is not relevant for VPP calculation, this is only reflected in the VPP plot)
+- give the mass of the participant in Newton (note that exact value is not relevant for VPP calculation)
 - which column contains the GRF in anterior-posterior (x) direction etc. of the first force plate (e.g. column 11, start counting at 1), sign: direction of the forces (+: direction fits, - direction has to be mirrored)
 - factor GRF: Here you can readjust the amplification of the ground reaction forces in the two different dimensions (standard values are “1.0”) 
 
@@ -71,7 +71,7 @@ Start Page: VPP calculation tool
 
 → Get the following:
  - VPP values in gui and a VPP plot of one data set (you can switch with “next” and “prev” between all files you have loaded in and see the different values and plots, plots are named after the kinetic files)
-- a file named “datafolder.csv” (named after the folder, where the data are stored) will be automatically created within the VPP values for each file
+- a file named “Data.csv” (you can change the code that this is named after the folder, where the data are stored) will be automatically created within the VPP values for each file
 - if you click on “save all figures”, all VPP plots will be saved as svg in the current folder
 
 ### Description Plot:
@@ -82,8 +82,7 @@ Start Page: VPP calculation tool
 - red cross: calculated VPP position
 - Figure title: Name of the kinetic file
 
+## Sample Data
+In the folder 'Data' you can found a sample data set. This data set contains kinetic and kinematic data of barefoot walking of one subject (ten trials). You can find more sample data on figshare: https://figshare.com/s/6e934414ca9bb4a2cdde.
 
-The sample data set is barefoot walking of one subject. You can find more sample data on figshare: https://figshare.com/s/6e934414ca9bb4a2cdde.
-# VPP-calculation-tool
-# VPP-calculation-tool
-# VPP-calculation-tool
+
