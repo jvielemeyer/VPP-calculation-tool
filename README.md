@@ -24,8 +24,8 @@ packages:
 Start programm in terminal with the following:
 
 ```
-cd *location of the files*
-python3 mainVPP.py
+cd myfolder
+python3 main.py
 ```
 
 ## General comments
