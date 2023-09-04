@@ -28,7 +28,7 @@ cd location of the files
 python3 mainVPP.py
 ```
 
-## Generall comments
+## General comments
 
 You need the following data for VPP calculation:
 - kinetic data: ground reaction forces (GRF) of x (anterior-posterior, in walking) and z (vertical to walking) direction and center of pressure (CoP) in x direction and optional the mass of the subject (to measure at standing)
